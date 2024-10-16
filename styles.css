@@ -22,7 +22,10 @@ a { /* change the appearance of ALL links */
     text-align: center;
     margin: 15px;
 }
-.projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
+.projects { 
+    display:flex; 
+    flex-wrap:wrap; 
+} /* condensed to save space */
 .project {
 width: 30%;
 margin: 10px;
