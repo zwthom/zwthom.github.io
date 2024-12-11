@@ -60,3 +60,19 @@ border-radius: 25%;
     border-radius: 25%;
     border: 2px solid rgb(126, 14, 201);
 }
+a { /* change the appearance of ALL links */
+text-decoration: none;
+color: purple;
+}
+.project p { /* change the appearance of paragraph tags inside .project divs */
+text-align: center;
+margin: 15px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
