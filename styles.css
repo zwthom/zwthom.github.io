@@ -25,16 +25,16 @@ a {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;  /* Distribute items evenly across the container */
-    gap: 20px;  /* Optional: adds space between project items */
+    justify-content: flex-start;  /* Aligns projects to the left */
+    gap: 20px;  /* Adds space between project items */
 }
 .project {
-    width: 30%;  /* Adjust this value if needed */
-    margin: 10px;
+    width: 30%;  /* Adjust width to fit projects side by side */
+    margin: 10px 0;  /* Reduced margin to prevent large gaps */
     padding: 20px 10px;
     background: white;
     border-radius: 25%;
-    box-sizing: border-box;  /* Ensures padding and borders are part of the width */
+    box-sizing: border-box;  /* Includes padding and border in the width */
 }
 .about {
     display: flex;
